@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(
+    135deg,
+    rgba(0, 198, 255, 0.8) 0%,
+    rgba(0, 114, 255, 0.4) 100%
+  );
+    /* box-shadow:  rgba(0, 0, 0, 0.126);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* 保持颜色一致 */
+}
+
+nav a:hover {
+  transform: translateX(1px) translateY(-2px); /* 鼠标悬停时上移上2px */
+  box-shadow: rgba(2, 2, 2, 0.2); /* 添加阴影 */
+}
+
+::-webkit-scrollbar {
+  display: none; }/* 针对Chrome、Safari和Edge */
+
+html {
+  -ms-overflow-style: none;  /* 针对IE和Edge */
+  scrollbar-width: none;  /* 针对Firefox */
+}
+
+

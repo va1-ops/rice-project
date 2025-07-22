@@ -1,0 +1,9 @@
+/* 0.35 秒淡入淡出 */
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity .35s ease;
+}
+.page-fade-enter-from,
+.page-fade-leave-to {
+  opacity: 0;
+}
